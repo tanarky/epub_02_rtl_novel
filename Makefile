@@ -7,8 +7,7 @@ OPTS = \
 	--epub-cover-image=images/title.jpg
 
 FILES = \
-	rst/index.rst \
-	rst/01_env.rst
+	md/01_unread.md
 
 OUTPUT_DIR_EPUB = output/epub
 
