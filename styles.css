@@ -5,3 +5,12 @@ body {
     -o-writing-mode: vertical-rl;
     -webkit-writing-mode: vertical-rl;
 }
+
+.ty {
+    -webkit-text-combine: horizontal;
+    text-combine : horizontal;
+}
+
+.page {
+    page-break-after: always;
+}
