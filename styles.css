@@ -1,16 +1,39 @@
+@font-face {
+    font-family : IPAexMincho;
+    font-weight : normal;
+    font-style: normal;
+    src : url(ipaexm.ttf);
+}
+
 body {
     writing-mode: tb-rl; /* IE独自仕様 */
     writing-mode: vertical-rl;
     -moz-writing-mode: vertical-rl;
     -o-writing-mode: vertical-rl;
     -webkit-writing-mode: vertical-rl;
-}
 
+    font-family: "IPAexMincho", serif;
+    font-size: 100%;
+    line-height: 1.7;
+    text-align: justify;
+    margin:0;
+    padding:0;
+}
+img{
+    max-width:100%;
+    max-height:100%;
+}
 .ty {
+    font-size:0.9em;
+    letter-spacing:-0.1ex;
+    text-combine: horizontal;
     -webkit-text-combine: horizontal;
-    text-combine : horizontal;
+    -epub-text-combine: horizontal;
 }
 
-.page {
-    page-break-after: always;
+hr.page {
+    page-break-before: always;
+    border: 0;
+    height: 0;
+    visibility: hidden;
 }
