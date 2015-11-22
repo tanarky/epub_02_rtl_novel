@@ -30,10 +30,14 @@ img{
     -webkit-text-combine: horizontal;
     -epub-text-combine: horizontal;
 }
-
 hr.page {
     page-break-before: always;
     border: 0;
     height: 0;
     visibility: hidden;
+}
+.author {
+    text-align:right;
+    width:100%;
+    height:100%;
 }
